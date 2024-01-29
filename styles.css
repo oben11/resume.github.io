@@ -2,25 +2,32 @@ body {
     background: rgb(101, 101, 101);
 }
 
-.buttonbg {
+.button {
     width: 20%;
+    height: 10%;
     padding: 5%;
     border-radius: 25%;
-    background: rgba(255, 12, 12);
-    align-self: auto;
-
 }
-.glassbutton {
-    width: 20%;
-    padding: 5%;
-    border-radius: 25%;
+
+.bg {
+    background: rgba(255, 12, 12);
+}
+
+.glass {
+    /* Parralax*/
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(50px);
+
+    /* Glass effect */
     background: rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.8px);
     -webkit-backdrop-filter: blur(2.8px);
     border: 1px solid rgba(255, 255, 255, 0.03);
-    align-self: auto;
+
+
 }
 
 .parralax {
