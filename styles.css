@@ -5,7 +5,7 @@ body {
 .selection {
     width: 20%;
     padding: 5%;
-    background: gray;
+    background: rgb(210, 0, 0);
     border-radius: 25%;
 }
 
