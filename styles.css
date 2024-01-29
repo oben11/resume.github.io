@@ -2,18 +2,22 @@ body {
     background: whitesmoke;
 }
 
-.button {
+.square {
+    /* Glass Button Size*/
     width: 500px;
     height: 250px;
     padding: 5%;
     border-radius: 25%;
-}
-
-.bg {
     background: rgba(255, 12, 12);
 }
 
-.glass {
+
+.sqaure-glass {
+    /* Glass Button Size*/
+    width: 500px;
+    height: 250px;
+    padding: 5%;
+    border-radius: 25%;
     /* Glass effect */
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
