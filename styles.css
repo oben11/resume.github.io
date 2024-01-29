@@ -1,10 +1,10 @@
 body {
-    background: rgb(101, 101, 101);
+    background: whitesmoke;
 }
 
 .button {
-    width: 20%;
-    height: 10%;
+    width: 500px;
+    height: 250px;
     padding: 5%;
     border-radius: 25%;
 }
@@ -14,18 +14,13 @@ body {
 }
 
 .glass {
-    /* Parralax*/
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
-    transform: translateZ(50px);
-
     /* Glass effect */
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.8px);
     -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.121);
 
 
 }
