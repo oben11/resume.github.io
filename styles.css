@@ -2,30 +2,21 @@ body {
     background: whitesmoke;
 }
 
-.selection {
+.glassbutton {
     width: 20%;
     padding: 5%;
-    background: rgb(210, 0, 0);
     border-radius: 25%;
-}
-
-.assignment {
-    width:21%;
-    padding:10px;
-    margin:10px;
-    margin-bottom: 30px;
-    background:#669067;
-    border-radius:5px;
-    box-shadow: 5px 8px #2c3529;
-}
-
-
-.glass {
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2.8px);
     -webkit-backdrop-filter: blur(2.8px);
     border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.parralax {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    transform: translateZ(20px);
+
 }
