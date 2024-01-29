@@ -1,0 +1,9 @@
+body {
+    background: whitesmoke;
+}
+
+.button {
+    width: 20%;
+    padding: 5%;
+    background: gray;
+}
